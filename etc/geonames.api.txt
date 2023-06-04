@@ -1,0 +1,3 @@
+http://api.geonames.org/get?geonameId=2778067&username=acdh
+
+http://api.geonames.org/search?name=Graz&featureCode=PPLA&featureCode=PPLB&featureCode=PPLC&username=acdh

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="ERROR">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %4L %-45c %X | %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="ERROR" />	
+		<Logger name="org.emile" level="ERROR">
+			<AppenderRef ref="Console" />
+		</Logger>		
+	</Loggers>
+</Configuration>

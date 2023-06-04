@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CGuiFactory.java">
+        <attr name="class_dependency_voodoosoft.jroots.core.CObject" stringvalue="CGuiFactory"/>
+    </fileobject>
+    <fileobject name="CGuiManager.java">
+        <attr name="class_dependency_voodoosoft.jroots.core.CObject" stringvalue="CGuiManager"/>
+        <attr name="class_dependency_java.lang.Object" stringvalue="CGuiManager.CHashKey"/>
+    </fileobject>
+</attributes>

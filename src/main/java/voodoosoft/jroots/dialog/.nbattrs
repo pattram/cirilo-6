@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CDefaultGuiAdapter.java">
+        <attr name="class_dependency_voodoosoft.jroots.dialog.CAbstractGuiAdapter" stringvalue="CDefaultGuiAdapter"/>
+    </fileobject>
+    <fileobject name="CDefaultDialog.java">
+        <attr name="class_dependency_voodoosoft.jroots.core.gui.IEventHandler" stringvalue="CDefaultDialog"/>
+        <attr name="class_dependency_voodoosoft.jroots.dialog.CDialog" stringvalue="CDefaultDialog"/>
+    </fileobject>
+    <fileobject name="CEntitySetTableModel.java">
+        <attr name="class_dependency_java.lang.Comparable" stringvalue="CEntitySetTableModel.CRow"/>
+        <attr name="class_dependency_voodoosoft.jroots.business.IEntitySetListener" stringvalue="CEntitySetTableModel"/>
+        <attr name="class_dependency_voodoosoft.jroots.dialog.CAbstractTableModel" stringvalue="CEntitySetTableModel"/>
+    </fileobject>
+    <fileobject name="CDialog.java">
+        <attr name="class_dependency_java.lang.Cloneable" stringvalue="CDialog"/>
+        <attr name="class_dependency_voodoosoft.jroots.dialog.IDirtyListener" stringvalue="CDialog"/>
+        <attr name="class_dependency_voodoosoft.jroots.core.gui.IEventHandler" stringvalue="CDialog"/>
+        <attr name="class_dependency_voodoosoft.jroots.message.CCommand" stringvalue="CDialog"/>
+    </fileobject>
+</attributes>

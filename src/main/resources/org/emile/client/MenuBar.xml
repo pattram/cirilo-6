@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<MenuBar class="JMenuBar" name="mMenuRoot">
+	<Menu class="JMenu" text="repository" mnemonic="R" name="repository">
+		<MenuItem class="JMenuItem" text="repository.open" mnemonic="O" enabled="true" name="open"/>
+		<MenuItem class="JMenuItem" text="repository.close" mnemonic="W" enabled="false" name="close"/>
+		<MenuItem class="JSeparator"/>		
+		<MenuItem class="JMenuItem" text="repository.search" mnemonic="S" enabled="false" name="search"/>
+		<MenuItem class="JSeparator"/>		
+		<MenuItem class="JMenuItem" text="repository.ingest" mnemonic="I" enabled="false" name="ingest"/>
+		<MenuItem class="JMenuItem" text="repository.aggregate" mnemonic="A" enabled="false" name="aggregate"/>
+		<MenuItem class="JSeparator"/>		
+		<MenuItem class="JMenuItem" text="repository.import" mnemonic="T" enabled="false" name="import"/>
+		<MenuItem class="JMenuItem" text="repository.export" mnemonic="X" enabled="false" name="export"/>
+		<MenuItem class="JSeparator"/>		
+		<MenuItem class="JMenuItem" text="repository.publish" mnemonic="P" enabled="false" name="publish"/>
+		<MenuItem class="JMenuItem" text="repository.publishgroup" mnemonic="G" enabled="false" name="publishgroup"/>
+		<MenuItem class="JSeparator"/>
+		<MenuItem class="JMenu" text="repository.maintain" mnemonic="N" name="maintain">
+			<MenuItem class="JMenuItem" text="repository.updateproperties" mnemonic="U" name="updateproperties"/>
+			<MenuItem class="JSeparator"/>		
+			<MenuItem class="JMenuItem" text="repository.reorganizetriplestore" mnemonic="R" name="reorganizetriplestore"/>
+		</MenuItem>
+		<MenuItem class="JSeparator"/>		
+		<MenuItem class="JMenuItem" text="repository.manage" mnemonic="M" enabled="false" name="manage"/>
+		<MenuItem class="JMenuItem" text="repository.manageue" mnemonic="U" enabled="false" name="manageue"/>
+		<MenuItem class="JMenuItem" text="repository.managepl" mnemonic="I" enabled="false" name="managepl"/>
+		<MenuItem class="JSeparator"/>		
+		<MenuItem class="JMenuItem" text="repository.exit" mnemonic="X" enabled="true" name="exit"/>
+	</Menu>
+	<Menu class="JMenu" text="object" mnemonic="E" name="object">
+		<MenuItem class="JMenuItem" text="object.edit" mnemonic="E" enabled="false" name="edit"/>
+		<MenuItem class="JMenuItem" text="object.new" mnemonic="N" enabled="false" name="new"/>
+		<MenuItem class="JMenuItem" text="object.replace" mnemonic="R" enabled="false" name="replace"/>
+		<MenuItem class="JSeparator"/>		
+		<MenuItem class="JMenuItem" text="object.delete" mnemonic="D" enabled="false" name="delete"/>
+	</Menu>
+	<Menu class="JMenu" text="extras" mnemonic="E" name="extras">
+		<MenuItem class="JMenuItem" text="extras.harvest" mnemonic="H" enabled="false" name="harvest"/>
+		<MenuItem class="JMenuItem" text="extras.review" mnemonic="R" enabled="false" name="review"/>
+		<MenuItem class="JSeparator"/>
+		<MenuItem class="JMenuItem" text="extras.view" mnemonic="V" enabled="false" name="view"/>
+		<MenuItem class="JSeparator"/>
+		<MenuItem class="JMenuItem" text="extras.preferences" mnemonic="P" enabled="true" name="preferences"/>
+	</Menu>
+	<Menu class="JMenu" text="window" mnemonic="O" name="window"/>
+	<Menu class="JMenu" text="help" mnemonic="O" name="help">
+		<MenuItem class="JMenuItem" text="help.about" mnemonic="A" enabled="true" name="about"/>
+		<MenuItem class="JMenuItem" text="help.guide" mnemonic="G" enabled="true" name="guide"/>
+	</Menu>
+</MenuBar>

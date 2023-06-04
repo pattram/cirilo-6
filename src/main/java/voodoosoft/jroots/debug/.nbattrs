@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CDebugger.java">
+        <attr name="class_dependency_java.lang.Runnable" stringvalue="CDebugger"/>
+        <attr name="class_dependency_voodoosoft.jroots.core.CObject" stringvalue="CDebugger"/>
+        <attr name="class_dependency_voodoosoft.jroots.debug.IDebugger" stringvalue="CDebugger"/>
+    </fileobject>
+</attributes>

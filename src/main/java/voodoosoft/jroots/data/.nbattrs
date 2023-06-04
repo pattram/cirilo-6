@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CXmlSqlStorage.java">
+        <attr name="class_dependency_voodoosoft.jroots.data.ISQLStorage" stringvalue="CXmlSqlStorage"/>
+    </fileobject>
+    <fileobject name="CConnection.java">
+        <attr name="class_dependency_voodoosoft.jroots.message.CCommand" stringvalue="CConnection"/>
+        <attr name="class_dependency_java.io.Serializable" stringvalue="CConnection"/>
+    </fileobject>
+    <fileobject name="CDataStore.java">
+        <attr name="class_dependency_voodoosoft.jroots.data.IDataStore" stringvalue="CDataStore"/>
+        <attr name="class_dependency_voodoosoft.jroots.core.CObject" stringvalue="CDataStore"/>
+        <attr name="class_dependency_java.io.Serializable" stringvalue="CDataStore"/>
+    </fileobject>
+    <fileobject name="CAsyncStore.java">
+        <attr name="class_dependency_voodoosoft.jroots.data.CAsyncTask" stringvalue="CAsyncStore"/>
+    </fileobject>
+    <fileobject name="CAsyncTask.java">
+        <attr name="class_dependency_voodoosoft.jroots.message.CCommand" stringvalue="CAsyncTask"/>
+        <attr name="class_dependency_voodoosoft.jroots.message.IObserver" stringvalue="CAsyncTask"/>
+    </fileobject>
+</attributes>
