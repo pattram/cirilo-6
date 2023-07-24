@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Properties;
 import java.util.ResourceBundle;
+import java.util.UUID;
 
 import javax.swing.JApplet;
 import javax.swing.JFrame;
@@ -51,6 +52,7 @@ public class Cirilo extends CiriloApplet {
 
 	
 	public static void main(String[] args) {
+	
 		
 		PropertyConfigurator.configure(Cirilo.class.getResource("log4j.properties"));
 
@@ -62,6 +64,8 @@ public class Cirilo extends CiriloApplet {
 		} else if ( args.length >= 10) {
 			try {
 
+				
+				
 				String host = null;
 				String path = null; 
 				String user = null;
